@@ -25,12 +25,9 @@ def read_ref_text(ref_text):
 
 
 def play_audio(audio_content, format, channels, rate):
-    p = pyaudio.PyAudio()
-    stream = p.open(format=format, channels=channels, rate=rate, output=True)
-    stream.write(audio_content)
-    stream.stop_stream()
-    stream.close()
-    p.terminate()
+    print(audio_content)
+    print("\n")
+    print(format, channels, rate)
 
 
 if __name__ == "__main__":
@@ -141,7 +138,7 @@ if __name__ == "__main__":
             with open("generated_audio.wav", "wb") as audio_file:
                 audio_file.write(audio_content)
 
-            play_audio(audio_content, audio_format, args.channels, args.rate)
+            #play_audio(audio_content, audio_format, args.channels, args.rate)
             print("Audio has been saved to 'generated_audio.wav'.")
     else:
         print(f"Request failed with status code {response.status_code}")
