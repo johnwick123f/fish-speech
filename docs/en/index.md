@@ -13,12 +13,11 @@
 </div>
 
 !!! warning
-We assume no responsibility for any illegal use of the codebase. Please refer to the local laws regarding DMCA (Digital Millennium Copyright Act) and other relevant laws in your area.
-
-This codebase is released under the `BSD-3-Clause` license, and all models are released under the CC-BY-NC-SA-4.0 license.
+    We assume no responsibility for any illegal use of the codebase. Please refer to the local laws regarding DMCA (Digital Millennium Copyright Act) and other relevant laws in your area. <br/>
+    This codebase is released under the `BSD-3-Clause` license, and all models are released under the CC-BY-NC-SA-4.0 license.
 
 <p align="center">
-   <img src="/docs/assets/figs/diagram.png" width="75%">
+   <img src="../assets/figs/diagram.png" width="75%">
 </p>
 
 ## Requirements
@@ -63,7 +62,7 @@ Non-professional Windows users can consider the following methods to run the cod
                   <li>After installing Visual Studio Installer, download Visual Studio Community 2022.</li>
                   <li>Click the <code>Modify</code> button as shown below, find the <code>Desktop development with C++</code> option, and check it for download.</li>
                   <p align="center">
-                     <img src="/docs/assets/figs/VS_1.jpg" width="75%">
+                     <img src="../assets/figs/VS_1.jpg" width="75%">
                   </p>
                </ul>
             </li>
