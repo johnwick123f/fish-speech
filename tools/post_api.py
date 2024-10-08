@@ -197,8 +197,6 @@ if __name__ == "__main__":
                 audio_file.write(audio_content)
 
             audio = AudioSegment.from_file(audio_path, format=args.format)
-            if args.play:
-                play(audio)
             print(f"Audio has been saved to '{audio_path}'.")
     else:
         print(f"Request failed with status code {response.status_code}")
